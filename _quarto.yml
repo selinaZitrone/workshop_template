@@ -1,0 +1,42 @@
+project:
+  type: website
+  resources: 
+    - "slides/01_01_RStudio.pdf"
+
+website:
+  title: "My template workshop"
+  description: "Learn something nice"
+  
+  page-footer:
+    left: "The footer on the left"
+    right: "The footer on the right"
+
+  navbar:
+    logo: "img/Rlogo.png"
+    pinned: true
+    right:
+      - text: Downloads
+        menu:
+          - text: Course material
+      - text: Sessions
+        menu: 
+          - text: First session
+            href: sessions/01_first_session.qmd
+          - text: Slide first session
+            href: slides/01_slide_first_session.qmd
+      - icon: github
+        href: https://google.com
+
+
+format:
+  html:
+    theme: 
+      light: [flatly, theme.scss]
+      dark: [darkly, theme.scss]
+    css: styles.css
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+
+
+

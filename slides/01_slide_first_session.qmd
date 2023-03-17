@@ -1,0 +1,36 @@
+---
+title: "Quarto Presentations"
+subtitle: "Create beautiful interactive slide decks with Reveal.js"
+format:
+  revealjs: 
+    slide-number: true
+    preview-links: auto
+    footer: <https://quarto.org>
+    self-contained: true
+    theme: css/slide_theme.scss
+execute: 
+  freeze: auto
+  cache: true
+---
+
+## Hello, There
+
+Some slides
+
+- [Callout boxes](https://quarto.org/docs/authoring/callouts.html)
+
+::: {.callout-caution collapse="true"}
+## Expand To Learn About Collapse
+
+This is an example of a 'folded' caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
+:::
+
+
+## asdf
+
+asdfasdf
+
+##asdfasdf
+
+asdfasdf
+

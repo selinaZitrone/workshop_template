@@ -1,0 +1,22 @@
+---
+title: "My template workshop"
+subtitle: "A cool subtitle"
+---
+
+🗓️ XX.XX.XXXX - XX.XX.XXXX <br>
+🕘 9 a.m. - 4 p.m. (🥪 ~ 12 a.m. - 1 p.m.)<br>
+📍 We will meet every morning in the `General` meeting room of our Webex team.<br>
+📧 If you have any questions [send me an email](mailto: selina.baldauf@fu-berlin.de)
+
+This is a Quarto website. What is the workshop about?
+
+# Workshop topics
+
+These are the topics of the workshop:
+
+- topic 1
+- topic 2
+
+# Preparations
+
+Please prepare the following for the workshop:

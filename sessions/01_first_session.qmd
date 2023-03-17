@@ -1,0 +1,56 @@
+---
+title: "First session"
+subtitle: "First session subtitle"
+callout-appearance: default
+---
+
+In this session you will learn:
+
+- a
+- b
+- c
+
+```{=html}
+<iframe class="slide-deck" width="780" height="500" src="../slides/01_slide_first_session.html"></iframe>
+```
+
+[Slides in full screen](../slides/01_slide_first_session.html){target="_blank"}
+
+<a href="../slides/01_slide_first_session.pdf" download>Download PDF slides</a>
+
+## Summary
+
+A summary of the topic
+
+## Exercises
+
+### Exercise 1
+
+This is the first question. What does this do:
+
+```{r eval=FALSE}
+1 + 1
+```
+
+::: {.callout-tip collapse="true"}
+## Expand to see solution
+
+This is an example of a callout with a title.
+:::
+
+### Exercise 2
+
+This is the first question. What does this do:
+
+```{r eval=FALSE}
+1 + 1
+```
+
+::: {.callout-tip collapse="true"}
+## Expand to see solution
+
+This is an example of a callout with a title.
+:::
+
+
+## Further links
