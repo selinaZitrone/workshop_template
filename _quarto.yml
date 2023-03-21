@@ -22,19 +22,17 @@ website:
         menu:
           - text: First session
             href: sessions/01_first_session.qmd
-          - text: Slide first session
-            href: slides/01_slide_first_session.qmd
       - icon: github
-        href: https://google.com
+        href: https://github.com/selinaZitrone/workshop_template
 
 
 format:
   html:
     embed-resources: true
     theme:
-      light: [flatly, theme.scss]
-      dark: [darkly, theme.scss]
-    css: styles.css
+      light: [flatly, style/theme.scss]
+      dark: [darkly, style/theme.scss]
+    css: style/styles.css
     toc: true
     code-copy: true
     code-overflow: wrap
