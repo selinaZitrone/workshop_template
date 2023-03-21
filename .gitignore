@@ -1,3 +1,4 @@
-/.quarto/
+\.quarto/idx/
+\.quarto/xref
 .Rproj.user
 _site/

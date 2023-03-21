@@ -1,0 +1,14 @@
+{
+  "hash": "f68f3b88241e0c8a9eb4ecbf944eae57",
+  "result": {
+    "markdown": "---\ntitle: \"First session\"\nsubtitle: \"First session subtitle\"\ncallout-appearance: default\n---\n\n\nIn this session you will learn:\n\n- a\n- b\n- c\n\n\n```{=html}\n<iframe class=\"slide-deck\" width=\"780\" height=\"500\" src=\"../slides/01_slide_first_session.html\"></iframe>\n```\n\n\n[Slides in full screen](../slides/01_slide_first_session.html){target=\"_blank\"}\n\n<a href=\"../slides/01_slide_first_session.pdf\" download>Download PDF slides</a>\n\n## Summary\n\nA summary of the topic\n\n## Exercises\n\n### Exercise 1\n\nThis is the first question. What does this do:\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n:::\n\n\n::: {.callout-tip collapse=\"true\"}\n## Expand to see solution\n\nThis is an example of a callout with a title.\n:::\n\n### Exercise 2\n\nThis is the first question. What does this do:\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n:::\n\n\n::: {.callout-tip collapse=\"true\"}\n## Expand to see solution\n\nThis is an example of a callout with a title.\n:::\n\n\n## Further links\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
