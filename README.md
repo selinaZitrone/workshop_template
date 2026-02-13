@@ -16,10 +16,11 @@ This repository provides a template for creating my workshop websites.
 4. Edit the description file
 5. Version control and push to GitHub
 
-### Things to fill out
+### Things to rename
 
 - `_quarto.yml`: Fill out url and name of page
 - `DESCRIPTION`: Fill out package details
+- Rename `.proj` file
 
 ### Dependencies
 
