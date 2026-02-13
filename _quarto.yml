@@ -1,27 +1,37 @@
 project:
   type: website
+  output-dir: "docs"
+  render:
+    - "*.qmd"
   resources:
-    - "slides/01_01_RStudio.pdf"
+    - "slides/*.pdf"
 
 website:
   title: "My template workshop"
   description: "Learn something nice"
 
-  page-footer:
-    left: "The footer on the left"
-    right: "The footer on the right"
+  repo-url: "https://github.com/selinaZitrone/workshop_template"
+  site-url: "https://selinazitrone.github.io/workshop_template/"
+  repo-actions: [edit, issue]
+  repo-branch: master
+  page-footer: "Copyright 2026, Selina Baldauf"
 
   navbar:
     logo: "img/Rlogo.png"
     pinned: true
+    left:
+      - text: "<b>Home</b>"
+        href: index.qmd
+      - text: Preparations
+        href: preparations.qmd
     right:
-      - text: Downloads
-        menu:
-          - text: Course material
       - text: Sessions
         menu:
           - text: First session
             href: sessions/01_first_session.qmd
+      - text: Downloads
+        menu:
+          - text: Course material
       - icon: github
         href: https://github.com/selinaZitrone/workshop_template
 
@@ -31,11 +41,23 @@ format:
     embed-resources: true
     theme:
       light: [flatly, style/theme.scss]
-      dark: [darkly, style/theme.scss]
+      dark: [darkly]
     css: style/styles.css
     toc: true
+    number-sections: true
+    number-depth: 3
     code-copy: true
     code-overflow: wrap
+    code-line-numbers: false
+    highlight-style: arrow
+
+editor: source
+
+execute:
+  freeze: false
+  error: true
+  message: false
+
 
 
 

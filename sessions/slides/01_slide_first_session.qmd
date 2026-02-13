@@ -1,0 +1,53 @@
+---
+title: "Introduction to R"
+subtitle: "Day 1 - Introduction to Data Analysis with R"
+author: "Selina Baldauf"
+institute: "Freie Universität Berlin - Theoretical Ecology"
+date: today
+date-format: long
+format: 
+  revealjs:
+    footer: "Selina Baldauf // Introduction R"
+    highlight-style: breeze
+    mainfont: Cabinet Grotesk
+    slide-number: true
+    show-slide-number: all
+    incremental: true
+    self-contained: true
+    code-line-numbers: false
+    auto-stretch: false
+    scrollable: true
+    fig-align: center
+    theme: css/slide_theme.scss
+execute: 
+  echo: true
+  warning: false
+  message: false
+knitr: 
+  opts_chunk: 
+    collapse: true
+    comment: "#>" 
+from: markdown+emoji
+---
+
+## Hello, There
+
+Some slides
+
+- [Callout boxes](https://quarto.org/docs/authoring/callouts.html)
+
+::: {.callout-caution collapse="true"}
+## Expand To Learn About Collapse
+
+This is an example of a 'folded' caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
+:::
+
+
+## asdf
+
+asdfasdf
+
+## asdfasdf
+
+asdfasdf
+

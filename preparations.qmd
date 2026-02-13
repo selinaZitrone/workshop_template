@@ -1,0 +1,6 @@
+---
+title: "Course preparations"
+---
+
+In order to have a smooth workshop start, you need to prepare a few technical things
+so we can jump right into coding.

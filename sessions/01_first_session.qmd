@@ -11,46 +11,23 @@ In this session you will learn:
 - c
 
 ```{=html}
-<iframe class="slide-deck" width="780" height="500" src="../slides/01_slide_first_session.html"></iframe>
+<iframe class="slide-deck" width="780" height="500" src="slides/01_slide_first_session.html"></iframe>
 ```
 
-[Slides in full screen](../slides/01_slide_first_session.html){target="_blank"}
+[Slides in full screen](slides/01_slide_first_session.html){target="_blank"}
 
-<a href="../slides/01_slide_first_session.pdf" download>Download PDF slides</a>
+<a href="slides/01_slide_first_session.pdf" download>Download PDF slides</a>
 
-## Summary
+# Summary
 
 A summary of the topic
 
-## Exercises
+# Exercises
 
-### Exercise 1
+# Task
 
-This is the first question. What does this do:
-
-```{r eval=FALSE}
-1 + 1
-```
-
-::: {.callout-tip collapse="true"}
-## Expand to see solution
-
-This is an example of a callout with a title.
-:::
-
-### Exercise 2
-
-This is the first question. What does this do:
-
-```{r eval=FALSE}
-1 + 1
-```
-
-::: {.callout-tip collapse="true"}
-## Expand to see solution
-
-This is an example of a callout with a title.
-:::
+{{< include tasks/example-task.qmd >}}
 
 
-## Further links
+
+# Further links

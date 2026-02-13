@@ -1,0 +1,8 @@
+---
+title: "Example solution"
+---
+
+```{r}
+# This is an example solution
+1 + 1
+```
